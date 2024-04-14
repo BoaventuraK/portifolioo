@@ -3,7 +3,7 @@ import stylesl from "./Footer.module.css"
 function Footer(){
     return(
         <footer className={stylesl.footer}>
-            <p>Rodapé</p>
+            <p>Portifólio de apresentação de Kauan Boaventura Brito</p>
         </footer>
     )
 }
