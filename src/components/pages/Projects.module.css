@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200;
+    height: 77vh;
+}
+
+.divContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1250px;
+    overflow-x: auto;
+    border: .5px solid #222;
+    height: 77vh;
+    box-shadow: inset 0px 0px 8px 2px rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+}
+
+.divContainer::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+.divContainer::-webkit-scrollbar-track {
+    background: #222;  
+    border-radius: 0px 0px 10px 10px;      /* color of the tracking area */
+  }
+  
+.divContainer::-webkit-scrollbar-thumb {
+    background-color: wheat;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 2px solid #222;  /* creates padding around scroll thumb */
+  }

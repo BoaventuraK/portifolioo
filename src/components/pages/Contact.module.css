@@ -1,0 +1,84 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1200px;
+    min-width: 800px;
+    height: 400px;
+
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.200);
+    border-radius: 20px 5px 20px 5px;
+    padding: 25px;
+    background-color: rgba(248, 211, 143, 0.226);
+}
+
+.container h1{
+    color: #222;
+    font-size: 2.5em;
+    margin-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.principal{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.principal h2{
+    color: #222;
+    font-size: 1.8em;
+}
+
+.principal p{
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #7b7b7b;
+}
+
+.principal > p > span{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #000000;
+}
+
+.secundario{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secundario ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.secundario > ul >  li{
+    justify-content: space-between;
+    list-style: none;
+}
+
+.secundario a{
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #222;
+}
+
+.secundario a:hover{
+    color: rgb(70, 62, 47);
+    font-size: 2.8em;
+}

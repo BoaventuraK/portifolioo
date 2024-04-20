@@ -19,10 +19,26 @@
     background-color: rgba(248, 211, 143, 0.226);
 }
 
-.container h1{
+.apresentacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.apresentacao h1{
+    width: 100%;
+    text-align: start;
     color: #222;
     font-size: 4em;
     margin-bottom: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.103);
+}
+
+.apresentacao p{
+    text-align: justify;
 }
 
 .img{
@@ -46,4 +62,9 @@
     height: 200px;
 
     transform: translate(-20px, -20px);
+}
+
+.img > div > div > img{
+    width: 200px;
+    height: 200px;
 }

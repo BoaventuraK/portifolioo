@@ -12,6 +12,7 @@
     align-items: center;
     font-size: 1.8em;
     margin-left: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.329);
 }
 
 .navbar ul{
